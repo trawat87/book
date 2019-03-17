@@ -72,10 +72,6 @@ These are typically:
 
 ## How to provision a Amazon Elastic Beanstalk Environment for Quick Start
 
-:o: remove this section 
-
-:o: there is no space before :
-
 :o: Assumption : is not a full sentence use `select` instead of double quotes so they ar everbatim
 
 :o: (see ...) is an incomplete sentence and does not have a period. Review grammar rulkes on setting periods e.g. it needs to be inside the sendtence and the period needs to be behind .
@@ -89,7 +85,7 @@ Balanced sample application on Elastic Beanstalk in a few quick Steps.
 
 Assumption : User must have an AWS account.
 
-### Step 1 : Login to the AWS console.
+### Step 1: Login to the AWS console.
 
 Console URL : [AWS Console URL](https://aws.amazon.com/console/).
 On successfull login, select Elastic Beanstalk from the Compute section or 
@@ -98,7 +94,7 @@ alternatively, you can type Beanstalk in the search bar to look up.
 
 ![AWS Beanstalk](images/elastic_beanstalk-1.png){#fig:aws-beanstalk-console}
 
-### Step 2 : Click on Create New Application
+### Step 2: Click on Create New Application
 
 On the Beanstlak home page, one can either click on the 
 "Create New Application" button at the top right corner or 
@@ -107,7 +103,7 @@ click on the "Get Started" button in the screen center.
 
 ![AWS Beanstalk](images/elastic_beanstalk-2.png){#fig:aws-beanstalk-home}
 
-### Step 3 : Select Base Configuration
+### Step 3: Select Base Configuration
 
 Provide a suitable name for your application. (see @fig:aws-beanstalk-baseconfig)
 In the Base Configuration section, select the type of platform you wish provision for 
@@ -119,7 +115,7 @@ For this example we will go with Tomcat.
 
 ![AWS Beanstalk](images/elastic_beanstalk-2.1.png){#fig:aws-beanstalk-baseoption}
 
-### Step 4 : Click on Configure More Options
+### Step 4: Click on Configure More Options
 
 Do not click on Create Application button in the previous step in case you wish to create 
 your application in a particular VPC. This is will be a requirement for most organizations
@@ -133,7 +129,7 @@ Once an application is created, the VPC on it cannot be updated.
 To be able to launch the application in the VPC of your choice, click on
 "Configure More Options" button.
 
-### Step 5 : Select High Availability as Config Preset
+### Step 5: Select High Availability as Config Preset
 
 Once you click on "Configure More Options" button, AWS will take you to Advance
 Configuration page.
@@ -145,7 +141,7 @@ balancer can be mapped to it.
 
 ![AWS Beanstalk](images/elastic_beanstalk-4.png){#fig:aws-beanstalk-configpreset}
 
-### Step 6 : Map VPC
+### Step 6: Map VPC
 
 Click on the Network section on the Advance Configuration page. 
 (see @fig:aws-beanstalk-configpreset)
@@ -184,7 +180,7 @@ These settings can be modified after the application launch as well.
 Once done, click on Save button. This action will save the settings and will take you 
 back to the Advance Configuration page. (see @fig:aws-beanstalk-configpreset)
 
-### Step 7 : Launch Application
+### Step 7: Launch Application
 
 These settings done so far are sufficeint to create a High Availability Load Balanced 
 application. Click on "Create App" button. (see @fig:aws-beanstalk-configpreset)
@@ -196,7 +192,7 @@ points to the publlic load balancer) will be displayed in the top section.
 
 ![AWS Beanstalk](images/elastic_beanstalk-6.png){#fig:aws-beanstalk-appready}
 
-### Step 8 : Verify application URL
+### Step 8: Verify application URL
 
 Click on the URL gerenerated in the previous step. This will open the homepage of the 
 sample application. (see @fig:aws-beanstalk-homepage)
