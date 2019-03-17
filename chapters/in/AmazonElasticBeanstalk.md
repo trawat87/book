@@ -31,32 +31,31 @@ A Variety of Platforms are supported
 * Go
 * Docker
 
+
 Features of Elastic Beanstock include
 
-:o: change to bullet list with headings italic
-
-### High Performance
+* *High Performance*
 
 Elastic Beanstalk allows freedom to provision servers from a variety of EC2 
 configurations based on business to suit the compute requirements.
 
-### Scalability
+* *Scalability*
 
 Easy configurable auto scaling settings are available to handle peak loads based on 
 metrics monitoring.
 
-### High Availability
+* *High Availability*
 
 Elastic Beanstalk provides easy health check based load balancing options to ensure 
 high avialability of the web application.
 
-### Complete source control
+* *Complete source control*
 
 The user has freedom to select the AWS resources and has full control over the 
 infrastructure powering the application using the Elastic Beanstalk management
 capabilities.
 
-### Fully Managed
+* *Fully Managed*
 
 With Elastic Beanstalk, AWS manages actvities like hardware provisioning, set up and 
 configuration, software patching, database backups and performance monitoring.
