@@ -87,13 +87,22 @@ For detailed pricing refer AWS Aurora Pricing documentation
 
 :o: this section has lots of incomplete sentences that should be completed
 
+This section will help with steps to be followed to provision a database
+using AWS Aurora service.
 
-Assumption: User must have an AWS account.
+To be able to use AWS Aurora service, the user must have set up an
+AWS account as a pre-requisite. 
+An AWS account can be create using the link below
+
+[New AWS account creation URL](https://portal.aws.amazon.com/billing/signup?redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start)
 
 ### Step 1: Login to the AWS console.
 
-Console URL: [AWS Console URL](https://aws.amazon.com/console/).  On
-successful login, select RDS from the Database section or
+Login to the AWS account using the link below.
+
+[AWS Console URL](https://aws.amazon.com/console/).
+
+Upon successful login, select RDS from the Database section or
 alternatively, you can type RDS in the search bar to look up (see
 @fig:aws-aurora-console).
 
