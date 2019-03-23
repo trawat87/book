@@ -302,39 +302,47 @@ the Connectivity and Security tab (see @fig:aws-aurora-connection).
 
 ## Other details available in Aurora DB Console
 
-###  Monitoring Details
+###  Monitoring
 
-:o: section incomplete, caption not unique
+The Monitoring tab provides different visualization based 
+metrics like CPU Utilization, Active DB Connections, Network Throughput etc
+that help in the tracking database health and usage.
 
 ![AWS Aurora DB](images/auroradb-14.png){#fig:aws-aurora-connection}
 
-###  Logs and Events Details
+###  Logs and Events
 
-:o: section incomplete, caption not unique
+The Logs and Events tab provides logs and event details for errors, slow 
+running queries, long waits which can be used for debugging.
 
 ![AWS Aurora DB](images/auroradb-15.png){#fig:aws-aurora-logs}
 
-###  Configuration Details
+###  Configuration
 
-:o: section incomplete, caption not unique
+The Configuration tab lists all different DB attribute values for quick 
+reference. 
 
 ![AWS Aurora DB](images/auroradb-12.png){#fig:aws-aurora-config-details}
 
-###  Tag Details
+###  Tag
 
-:o: section incomplete, caption not unique
+The Tags tab lists all tags associated with the database.
+Tags are often used to apply labels as key and value pairs and allow to
+organize the resources together logically for cost and tracking.
 
 ![AWS Aurora DB](images/auroradb-16.png){#fig:aws-aurora-tag-details}
 
-## Updates to Aurora DB
+## Update Aurora DB
 
-:o: section incomplete, caption not unique
+This section details the different actions that can be taken on the Aurora
+database.
 
 ![AWS Aurora DB](images/auroradb-17.png){#fig:aws-aurora-updates}
 
 ### Modify
 
-:o: incomplete section
+A database instance can be modifed by clicking the `Modify` button on the
+top right corner. 
 
 This action allows to update the following list of attributes of Aurora DB:
 
@@ -352,7 +360,7 @@ This action allows to update the following list of attributes of Aurora DB:
 ### Reboot
 
 This action will kill all active sessions on the database and restart the servers.
-All uncommitted transaction will be lost
+All uncommitted transactions will be lost.
 
 ### Delete
 
