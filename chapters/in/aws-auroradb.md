@@ -377,11 +377,45 @@ for point in time recovery.
 
 ## Example
 
-:o: this section will include an example on how to interact with the
-AuroraDB in python.
+Once the database is set up and running, next step is to be able to connect and execute
+database queries.
 
-* <https://datascience-enthusiast.com/R/AWS_RDS_R_Python.html>
-* there are probably others, please develop your oen example
+Following is an example describing how to connect to AuororaDB using python.
+
+Install MySQL driver using pip
+
+	$ pip install mysql-connector
+	
+Once the python package is installed, the below python script can be used to connect to
+the database, create a table and list the tables in the database.
+
+```python
+import mysql.connector
+
+mysqlHostName = '<Database server>'
+mysqlUser = '<Database User>'
+mysqlPassword = '<Database User Password>'
+mysqlDatabase = '<Database Name>'
+mysqlPort = <Database Port>
+
+mydb = mysql.connector.connect(
+  host=mysqlHostName,
+  user=mysqlUser,
+  passwd=mysqlPassword,
+  database=mysqlDatabase,
+  port=mysqlPort
+)
+
+
+mycursor = mydb.cursor()
+
+mycursor.execute("CREATE TABLE my_user_table (name VARCHAR(255), address VARCHAR(255))")
+
+mycursor.execute("SHOW TABLES")
+
+for x in mycursor:
+  print(x)
+```
 
 
 ## Exercises
