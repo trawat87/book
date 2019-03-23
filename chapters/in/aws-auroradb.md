@@ -85,8 +85,6 @@ For detailed pricing refer AWS Aurora Pricing documentation
 
 ## How to provision Aurora database
 
-:o: this section has lots of incomplete sentences that should be completed
-
 This section will help with steps to be followed to provision a database
 using AWS Aurora service.
 
