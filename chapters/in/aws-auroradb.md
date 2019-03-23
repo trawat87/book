@@ -202,8 +202,8 @@ port and parameter groups (see @fig:aws-aurora-advconfig-2).
 
 #### Step 7: Configure Advance Settings - Encryption and Failover
 
-:o: incomplete sentence
-
+This sub section allows to configure settings for Encrption and 
+Failover of the database. The options are explained in the next few steps
 (see @fig:aws-aurora-advconfig-3).
 
 ![AWS Aurora DB](images/auroradb-7.png){#fig:aws-aurora-advconfig-3}
@@ -223,8 +223,8 @@ current writer.
 
 #### Step 8: Configure Advance Settings - Backtrack and Monitoring
 
-:o: incomplete sentence
-
+This sub section allows to configure settings for Bactrack and 
+Monitoring of the database. The options are explained in the next few steps
 (see @fig:aws-aurora-advconfig-4).
 
 ![AWS Aurora DB](images/auroradb-8.png){#fig:aws-aurora-advconfig-4}
@@ -245,8 +245,8 @@ used etc for reporting.
 
 #### Step 9: Configure Advance Settings - Log Exports and Maintenance
 
-:o: incomplete sentence
-
+This sub section allows to configure settings for exporting logs and 
+maintenance of the database. The options are explained in the next few steps
 (see @fig:aws-aurora-advconfig-5).
 
 ![AWS Aurora DB](images/auroradb-9.png){#fig:aws-aurora-advconfig-5}
