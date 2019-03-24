@@ -1,9 +1,5 @@
 # Amazon Elastic Beanstalk (hid: sp19-516-128)
 
-:o: Undefined cross-reference: fig:aws-beanstalk-manageenv
-
-:o: Undefined cross-reference: fig:aws-beanstalk-config-database
-
 ---
 
 **:mortar_board: Learning Objectives**
@@ -92,8 +88,8 @@ Login to the AWS account using the link below.
 [AWS Console URL](https://aws.amazon.com/console/).
 
 Upon successful login, select Elastic Beanstalk from the Compute section or 
-alternatively, you can type Beanstalk in the search bar to look up. 
-(see @fig:aws-beanstalk-console)
+alternatively, you can type Beanstalk in the search bar to look up (see 
+@fig:aws-beanstalk-console).
 
 ![AWS Beanstalk](images/elastic_beanstalk-1.png){#fig:aws-beanstalk-console}
 
