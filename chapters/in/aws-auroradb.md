@@ -1,4 +1,4 @@
-# Amazon Aurora DB 
+# Amazon Aurora DB (hid : sp19-516-128)
 
 
 ---
@@ -293,10 +293,11 @@ very small latency (in microseconds) and can be used to serve as the
 standalone node to run parallel queries for analysis without putting
 any additional load on the primary writer node.
 
-The endpoint url, port needed to connect to the database can be retrieved by checking
-the Connectivity and Security tab (see @fig:aws-aurora-connection).
+The endpoint url, port needed to connect to the database can be
+retrieved by checking the Connectivity and Security tab (see
+@fig:aws-aurora-connection-1).
 
-![AWS Aurora DB](images/auroradb-13.png){#fig:aws-aurora-connection}
+![AWS Aurora DB](images/auroradb-13.png){#fig:aws-aurora-connection-1}
 
 ## Other details available in Aurora DB Console
 
@@ -306,7 +307,7 @@ The Monitoring tab provides different visualization based
 metrics like CPU Utilization, Active DB Connections, Network Throughput etc
 that help in the tracking database health and usage.
 
-![AWS Aurora DB](images/auroradb-14.png){#fig:aws-aurora-connection}
+![AWS Aurora DB](images/auroradb-14.png){#fig:aws-aurora-connection-2}
 
 ###  Logs and Events
 
@@ -357,8 +358,8 @@ This action allows to update the following list of attributes of Aurora DB:
 
 ### Reboot
 
-This action will kill all active sessions on the database and restart the servers.
-All uncommitted transactions will be lost.
+This action will kill all active sessions on the database and restart
+the servers.  All uncommitted transactions will be lost
 
 ### Delete
 
