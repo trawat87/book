@@ -65,12 +65,6 @@ These are typically:
 
 ## How to provision a Amazon Elastic Beanstalk Environment for Quick Start
 
-:o: (see ...) is an incomplete sentence and does not have a period. Review grammar rulkes on setting periods e.g. it needs to be inside the sendtence and the period needs to be behind .
-
-:o: you shoudl have looked at the modifications i made to your other text
-
-:o: All figures must be refered to 
-
 This section will help with steps to be followed to create a Highly Available, 
 Load Balanced sample application on Elastic Beanstalk in a few quick Steps.
 
