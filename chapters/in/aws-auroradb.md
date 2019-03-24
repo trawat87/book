@@ -424,21 +424,21 @@ for x in mycursor:
 
 ## Exercises
 
-AuroraDB.1: define an exercise
+AuroraDB.1:
 
 > Follow the steps defined in the sections above to create an AuroraDB instance
 > with a read replica in a different availabiblity zone. Once the main writer
 > instance and the read replica are available, check if you can connect to both 
 > writer and reader nodes using the respective end-points.
 
-AuroraDB.2: define an exercise
+AuroraDB.2:
 
 > Once you are able to connect to both writer and reader nodes using the 
 > end-points, create a table in the writer node and insert some data into it.
 > Now connect to the reader node and check if you can access the same table 
 > and read the data in it.
 
-AuroraDB.3: define an exercise
+AuroraDB.3:
 
 > Now stop the writer node on the AuroraDB. 
 > Wait for sometime and validate that the reader node is promoted as the writer
