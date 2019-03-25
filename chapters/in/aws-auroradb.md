@@ -450,4 +450,6 @@ AuroraDB.3:
 
 * <https://aws.amazon.com/rds/aurora/>
 
-:o: make sur eto create also bibtex resources and put them in the bib directory
+## Bibtex
+
+* <https://github.com/cloudmesh-community/book/blob/master/bib/aws-auroradb.bib>
