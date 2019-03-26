@@ -1,4 +1,9 @@
-# Amazon Elastic Beanstalk (hid: sp19-516-128)
+# Amazon Elastic Beanstalk :wave: sp19-516-128
+
+:o: your sentences such as "This section currently allows" do not
+represent what is doen. The section does not allow this but the
+software. Remove phrases such as "This section currently allows" and
+replace them with appropirate text
 
 ---
 
@@ -248,8 +253,7 @@ next set of actions on the application environment:
 
 (see @fig:aws-beanstalk-manageenv)
 
-![AWS Beanstalk](images/elastic_beanstalk-12.png)
-{#fig:aws-beanstalk-manageenv}
+![AWS Beanstalk](images/elastic_beanstalk-12.png){#fig:aws-beanstalk-manageenv}
 
 ### Beanstalk Logs
 
@@ -499,11 +503,8 @@ creation of the beanstalk application and cannot be modified later
 This section allows to create and manage an RDS database as part of
 the beanstalk configuration (see @fig:aws-beanstalk-config-database).
 
-![AWS Beanstalk](images/elastic_beanstalk-31.png)
-{#fig:aws-beanstalk-config-database}
+![AWS Beanstalk](images/elastic_beanstalk-31.png){#fig:aws-beanstalk-config-database}
 
 ## References
 
-* <https://aws.amazon.com/elasticbeanstalk/>
-
-:o: create also bibtex
+* <https://aws.amazon.com/elasticbeanstalk/> [@www-aws-elasticbeanstalk]
