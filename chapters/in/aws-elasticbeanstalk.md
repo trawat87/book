@@ -507,6 +507,54 @@ the beanstalk configuration (see @fig:aws-beanstalk-config-database).
 
 ![AWS Beanstalk](images/elastic_beanstalk-31.png){#fig:aws-beanstalk-config-database}
 
+## Access Beanstalk using python
+
+The beanstalk application and all of its associated resources can also be accessed and 
+managed programatically using the boto package in python.
+
+Here is the link that describes the boto methods available for beanstalk.
+
+* <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/elasticbeanstalk.html>
+
+## Exercises
+
+ElasticBeanstalk.1:
+
+> Follow the steps defined in the sections above to set up a beanstalk application
+> in Python using the default sample application provided by AWS.
+> Use the beanstalk URL generated to verify that the application is accessible.
+
+ElasticBeanstalk.2:
+
+> Once you are able to access the beanstalk application using the URL,  
+> deploy your custom application and validate if the environment reflects the changes
+> as per the new deployment package.
+
+ElasticBeanstalk.3:
+
+> Click on `Configuration` link on left hand menu in the beanstalk console. 
+> Next click on the `Capacity` link and set up an Auto Scaling policy to keep the 
+> application running on a minimum of 2 servers at all times.
+> Save the new configuration and allow beanstalk to install the changes to the
+> environment.
+> Verify that the application is now running on 2 servers. Click on `Health` link
+> and verify that the application is running on 2 servers.
+
+ElasticBeanstalk.4:
+
+> Now select one of the 2 servers and terminate it from the 
+> `Instance Actions` button on the top right on `Health Page`. 
+> Wait for some time to confirm if beanstalk automatically adds a new server instance 
+> to match the minimum threshold set up in excrcise 3.
+
+ElasticBeanstalk.5:
+
+> Click on the `Configuration` link and open the `Load Balancer` section.
+> Add new rules to make the application listen on http / https on ports other than
+> the default 80 and 443 ports.
+> Validate that the application URLs work on the new ports once the changes are applied. 
+
+
 ## References
 
 * <https://aws.amazon.com/elasticbeanstalk/> [@www-aws-elasticbeanstalk]
